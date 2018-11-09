@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer src="index.js"> </script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Exercício 4</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Customer Info</legend>
+        Nome: <input type="text" id="_Nome" placeholder="Nome">
+    <p/>
+        Telefone: <input name="Fone" id="Fone" required pattern="\d{5}-?\d{4}" placeholder="99999-9999"/>
+    <p/>
+        Endereço Email: <input name="_eMail" type="email"  placeholder="nome@email.com"/>
+    <p/>
+        Books: <input type="text" id="_Book" placeholder="Livro">
+        Quantity (Maximum 5): <input type="text" id="_Book" placeholder="9">
+    <p/>
+        <input Type="submit" name="action" value="Submit">
+    </fieldset>
+</form>
+</html>
