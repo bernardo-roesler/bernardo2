@@ -16,10 +16,15 @@
     <p/>
         Endereço Email: <input name="_eMail" type="email"  placeholder="nome@email.com"/>
     <p/>
-        Books: <input type="text" id="_Book" placeholder="Livro">
-        Quantity (Maximum 5): <input type="text" id="_Book" placeholder="9">
-    <p/>
-        <input Type="submit" name="action" value="Submit">
     </fieldset>
+    <fieldset>
+        <legend>Books</legend>
+        <input type="text" id="_Book" placeholder="Livro">
+        Quantity (Maximum 5): <input type="number" maxlength="1" min="1" max="5" id="_Book" placeholder="1">
+    <p/>
+    </fieldset>
+        <input Type="submit" name="action" value="Submit">
+    <p/>
+        <sub> 2001 Acme United. All rights reserved </sub>
 </form>
 </html>
