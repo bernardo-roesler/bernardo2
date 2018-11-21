@@ -23,7 +23,7 @@ function carregaImagens() {
     for (key in imagens) {
         var numero = parseInt(key) + parseInt(1);
         var ele = "img" + numero;
-        document.getElementById(ele).src = "../images/"+imagens[key]+".jpg";
+        document.getElementById(ele).src = "../Imagens/"+imagens[key]+".jpg";
         document.getElementById(ele).style.width = "100px";
         document.getElementById(ele).style.height = "100px";
     }
@@ -34,7 +34,7 @@ function TrocaImg() {
     for (key in imagens) {
         var numero = parseInt(key) + parseInt(1);
         var ele = "img" + numero;
-        document.getElementById(ele).src = "../images/"+imagens[Math.floor((Math.random() * 5))]+".jpg";
+        document.getElementById(ele).src = "../Imagens/"+imagens[Math.floor((Math.random() * 5))]+".jpg";
         document.getElementById(ele).style.width = "100px";
         document.getElementById(ele).style.height = "100px";
     }
